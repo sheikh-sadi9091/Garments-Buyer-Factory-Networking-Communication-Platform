@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" fill="none">
+  <defs>
+    <linearGradient id="fabric" x1="120" y1="120" x2="1460" y2="1040" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9E7F7"/>
+      <stop offset=".52" stop-color="#C8D9EE"/>
+      <stop offset="1" stop-color="#E8D8D2"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1769E0"/>
+      <stop offset="1" stop-color="#0C9F91"/>
+    </linearGradient>
+    <pattern id="stitches" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M2 3h7M13 14h7" stroke="#fff" stroke-opacity=".22" stroke-width="2" stroke-linecap="round"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#fabric)"/>
+  <path d="M0 0h630L0 1100V0Z" fill="#1769E0" fill-opacity=".08"/>
+  <path d="M1600 160v940H870l730-940Z" fill="#EF6B55" fill-opacity=".07"/>
+  <g opacity=".56" stroke="#fff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 333c0-53 34-88 80-88s80 35 80 88"/>
+    <path d="m151 336 109 88 109-88"/>
+    <path d="M465 258c0-46 30-76 70-76s70 30 70 76"/>
+    <path d="m425 279 110 86 110-86"/>
+    <path d="M1190 305c0-50 32-83 75-83s75 33 75 83"/>
+    <path d="m1134 326 131 103 131-103"/>
+    <path d="M1360 220c0-40 26-67 62-67s62 27 62 67"/>
+    <path d="m1314 242 108 84 108-84"/>
+  </g>
+  <g opacity=".5">
+    <path d="m172 425 88 48 88-48 54 88-57 39v201H175V552l-57-39 54-88Z" fill="url(#shirt)"/>
+    <path d="m172 425 88 48 88-48 54 88-57 39v201H175V552l-57-39 54-88Z" fill="url(#stitches)"/>
+    <path d="m491 365 44 31 44-31 63 58-43 59-36-25v196h-56V457l-36 25-43-59 63-58Z" fill="#EF6B55"/>
+    <path d="m1150 429 115 56 115-56 54 92-58 38v232h-222V559l-58-38 54-92Z" fill="#F2A900"/>
+    <path d="m1150 429 115 56 115-56 54 92-58 38v232h-222V559l-58-38 54-92Z" fill="url(#stitches)"/>
+    <path d="m1362 326 60 41 60-41 47 44-36 56-31-21v172h-80V405l-31 21-36-56 47-44Z" fill="#1769E0"/>
+  </g>
+  <g opacity=".22" stroke="#fff" stroke-width="4">
+    <path d="M60 850h490M80 890h430M1020 770h500M1050 810h470"/>
+    <path d="M210 780v120M330 780v120M1200 700v130M1360 700v130"/>
+  </g>
+</svg>
